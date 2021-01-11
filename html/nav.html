@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/form.css" type="text/css">
+</head>
+<body>
+
+<div class="navContainer">
+    <div class="space"></div>
+    <div class="buttonContainer">
+        <div class="navBar">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3">
+            </div>
+        </div>
+        <a href="#" class="navText">Menu</a>
+    </div>
+
+    <div class="clearfix"></div>
+    <nav id="sideNav">
+        <ul class="menuUL">
+            <li class="menuList">
+                <span class="material-icons">favorite</span>
+                <div class="subButton"><a href="/leo">Leo</a></div>
+            </li>
+            <li class="menuList">
+                <span class="material-icons">favorite</span>
+                <div class="subButton"><a href="/jacob">Jacob</a></div>
+            </li>
+        </ul>
+    </nav>
+
+</div>
+
+
+<div class="pageContainer">
+    <div class="overlay"></div>
+    <div class="panels">
+
+        <!--      Leo-->
+        <div class="infoHolder">
+            <div class="title">
+                Leo
+            </div>
+            <div class="profileImage">
+                <img src="images/131390624_2850190128559677_2438376480361588646_n.jpg" width="150" height="150">
+            </div>
+            <div class="info">
+                <p id="age">Age: 4</p>
+                <p id="DOB">DOB: 29/06/16</p>
+                <p id="Date">Today Date 02/01/2021</p>
+            </div>
+            <div class="status">
+                Status
+            </div>
+            <div class="extraInfo">
+                <p id="Last Mood">Last Mood: Happy</p>
+                <p id="Last Meal Time">Last Meal Time: 29/06/16</p>
+                <p id="Behavior">Behavior: Leo was particularly destructive today. He was kicking his father all
+                    day long and he wanted to fire him as that is his
+                    new catch phase</p>
+            </div>
+
+            <div class="editButton">
+                <a href="#edit">Edit</a>
+            </div>
+
+            <div class="loadSelector">
+                <p>Load From:</p>
+                <select>
+                    <option value="blah">blah</option>
+                </select>
+            </div>
+
+        </div>
+        <!--      Leo-->
+
+        <!-- editPanel -->
+            <div class="right">
+                    <div class="title">
+                        EditPanel
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="lastMood">Last Mood</label>
+                            <input id="lastMood" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="LastMealTime">Last Meal  Time</label>
+                            <input id="LastMealTime" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="behaviorEdit">Behavior</label>
+                            <textarea id="behaviorEdit" class="form-text" type="text"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                           <input id="submit" class="form-button" value="submit" type="button"/>
+                        </div>
+
+                    </form>
+
+            </div>
+
+    </div>
+    <script src="js/nav.js"></script>
+</div>
+</body>
+</html>

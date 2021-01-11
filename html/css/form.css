@@ -1,0 +1,40 @@
+
+
+.form-group {
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-weight: bold;
+ margin-left: 5px;
+ max-width: 490px;
+ font-size: 20px;
+}
+
+.form-control {
+    width: 460px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-text {
+    width: 460px;
+    height: 300px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-button {
+    width: 460px;
+    height:  60px;
+    background-color: #155D94;
+    border-radius:.6rem;
+    color : #E09F3D;
+    font-size: 20px;
+
+}

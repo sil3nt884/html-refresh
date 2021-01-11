@@ -1,0 +1,281 @@
+*:before, *:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #C2CED9;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    color:  #E09F3D;
+}
+
+.pageContainer {
+    width: 1000px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    background-color: white;
+    height: 900px;
+    top: 50px;
+}
+
+
+.navContainer {
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.menuUL{
+    margin: 50px 0px 0px -36px;
+}
+
+.space{
+    padding-top: 10px;
+}
+
+.buttonContainer  {
+    background: #155D94;
+    height: 1px;
+    width: 1000px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom-left-radius:25%;
+    border-bottom-right-radius:25%;
+
+}
+
+.buttonContainer  div:hover {
+    background: white;
+}
+
+.buttonContainer  p:hover {
+    color: yellow;
+}
+
+.navButton {
+    height: 60px;
+    background: black;
+    padding-top: 50px;
+    position: relative;
+
+
+}
+
+.material-icons {
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.subButton {
+    background: #3D99E0;
+    border-style: solid;
+    border-color: white;
+    width: 287px;
+    height: 50px;
+    font-size : 25px;
+    color: #945D0A;
+    list-style-type: none;
+    text-align: center;
+    border-radius : 3px
+}
+
+
+
+.menuList {
+    list-style-type: none;
+}
+
+.subButton a{
+    color:  #945D0A;
+
+}
+
+
+
+.navBar{
+    padding-left: 20px;
+    width: 50px;
+    float : left;
+    padding-top: 1px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 10px;
+}
+.navText {
+    font-size : 25px;
+    padding-top: 10px;
+}
+
+.navText a:hover{
+    color : #945D0A ;
+}
+
+.bar1, .bar2, .bar3  {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+#sideNav  {
+     font-size : 20px;
+     text-align: justify;
+     width: 50px;
+     margin-right: 1000px;
+     height: 10px;
+     display: none;
+     top: 15px ;
+     right: 1px;
+     left: -5px;
+     position: absolute;
+     z-index: 2;
+}
+
+/*LEO*/
+
+.panels{
+    margin-left: 15px;
+    position: absolute;
+}
+
+
+.infoHolder,.right {
+    background-color: #3D99E0;
+    height: 700px;
+    width: 460px;
+    float: left;
+    font-size:  22px ;
+    position: absolute;
+    display: table;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+    top:10px;
+    left: 10px;
+}
+
+.editButton > a {
+  color:  #E09F3D;
+
+}
+
+.info{
+    font-size: 20px;
+    margin-left: 220px;
+    float: left;
+    top: 80px;
+    position: absolute;
+
+}
+
+.profileImage {
+    padding-left: 50px;
+    padding-top: 36px;
+    overflow: hidden;
+}
+
+.profileImage img {
+    border-radius: 50%;
+}
+
+.right {
+    margin-left: 480px;
+}
+
+
+.title, .status{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #E09F3D;
+    background-color: #195F94;
+    width: 460px;
+    padding-left: 10px;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+    height: 45px;
+
+}
+
+.status{
+    padding-top: 10px;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius:0%;
+}
+
+.extraInfo {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.loadSelector{
+    position: relative;
+    left: 300px;
+    bottom: 46px;
+}
+
+.loadSelector > p  {
+   font-size: 15px;
+   margin: 0;
+}
+
+.loadSelector > select  {
+    width: 150px;
+}
+
+#waiting {
+    color: #C2CED9;
+    font-size: 20px;
+    left : 192px;
+    position: relative;
+    font-weight: bold;
+    top: 217px;
+
+}
+
+.editButton{
+    background-color: #155D94;
+    height:30px;
+    width: 145px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    border-radius: .6rem;
+    text-align: center;
+
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    z-index: 3;
+    height: 700px;
+    margin-left: 505px;
+    width: 470px;
+    position: fixed;
+    margin-top: 10px;
+    cursor: no-drop;
+    display: inline;
+}
+
+.editButton > a{
+    color: #E09F3D;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Smaller than 995*/
